@@ -68,8 +68,9 @@ export default class tekkom extends Component {
                                     <center>
                                     <h3 className="card-text">{results.title}</h3>
                                     <img src={results.thumbnail} style={{height:'300px', width:'500px'}}></img>
-                                    <br></br>
+                                    <br></br><br></br>
                                     <button><a href={results.url}>Live Stream</a></button>
+                                    <br></br><br></br>
                                     </center>
                             </div>
                             
