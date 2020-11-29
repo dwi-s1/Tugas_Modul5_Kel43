@@ -45,7 +45,7 @@ export default class tekkom extends Component {
                 <div className="boxWhite">
                     <center>
                         <h1>Tugas Modul 5 Kelompok 43</h1>
-                        <h2>Scorebat Pertandingan Sepak Bola</h2>
+                        <h2>Highlights Pertandingan Sepak Bola </h2>
                     </center>
                     
                     <Modal
@@ -57,7 +57,7 @@ export default class tekkom extends Component {
                         width={500}
                     >
                         <div style={{ textAlign: "center" }}>
-                            <h2>Scorebat Pertandingan Sepak Bola</h2>
+                            <h2>Highlights Pertandingan Sepak Bola</h2>
                         </div>
                     </Modal>
 
@@ -69,8 +69,7 @@ export default class tekkom extends Component {
                                     <h3 className="card-text">{results.title}</h3>
                                     <img src={results.thumbnail} style={{height:'300px', width:'500px'}}></img>
                                     <br></br>
-                                    <button onClick href={results.url}>Live Stream</button>
-                                    
+                                    <button><a href={results.url}>Live Stream</a></button>
                                     </center>
                             </div>
                             
